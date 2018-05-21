@@ -1,0 +1,60 @@
+INVESTMENT INCOME,,,,N1,NET REALISED GAIN / LOSSES,,
+Net Realised Gain / Losses,N1,-,"(2,218.35)",,Realised foreign exchange,-,"(2,218.35)"
+Unrealised Gain / Losses,N2,"46,393.45","(113,281.18)",,Total Net Realised Gain / Losses,0.00,"(2,218.35)"
+Total Investment Income,,"46,393.45","(115,499.53)",N2,UNREALISED GAIN / LOSSES,,
+EXPENSES,,,,,Foreign Exchange,"(14,487.52)","(6,855.80)"
+Bank Charges,,(52.96),(52.96),,Unit Trust,"60,880.97","(106,425.38)"
+Management Fee,,(532.20),(910.93),,Total Unrealised Gain / Losses,"46,393.45","(113,281.18)"
+Total Expenses,,(585.16),(963.89),,,,
+Net Profit / Loss For The Month,,"45,808.29","(116,463.42)",,,,
+NET PROFIT AFTER REPATRIATION OF INCOME,,"45,808.29","(116,463.42)",,,,
+"",,,,,,Unrealised Gain / (Loss),,
+"",% of Total Book Value Market ValueBook Value % of Total,,Market Value,,FX,Price,Total,% of Book
+"",,,,,,,,Value
+HOLDING,,,,,,,,
+INVESTMENT,,,,,,,,
+Collective Investment Scheme,"3,364,035.81 99.7","3,250,754.63",99.7,,"(6,855.80)","(106,425.38)","(113,281.18)",(3.4)
+"","3,364,035.81 99.7","3,250,754.63",99.7,,"(6,855.80)","(106,425.38)","(113,281.18)",(3.4)
+LIQUID ASSET,,,,,,,,
+Cash In Hand,"9,568.31 0.3","9,568.31",0.3,,0.00,0.00,0.00,0.0
+"","9,568.31 0.3","9,568.31",0.3,,0.00,0.00,0.00,0.0
+SETTLEMENT ACCOUNT,,,,,,,,
+Fees Payables,(532.20) 0.0,(532.20),0.0,,0.00,0.00,0.00,0.0
+"",(532.20) 0.0,(532.20),0.0,,0.00,0.00,0.00,0.0
+TOTAL,"3,373,071.92 100.0","3,259,790.74",100.0,,"(6,855.80)","(106,425.38)","(113,281.18)",(3.4)
+"",,,Cost,Total,%,Market,Market,%,,Unrealised Gain / (Loss),,
+Stock Code Security Description,,Total Holdings,,,,,,,,,,
+"",,,Per Unit,Book Value,BV,Price,Value,MV,Fx,Price Total,,%BV
+CIS,,,,,,,,,,,,
+MALAYSIA,,,,,,,,,,,,
+FINANCIAL SERVICES,,,,,,,,,,,,
+Affin Hwang Asset Mgmt Bhd WS -,,,,,,,,,,,,
+AHCGUSD China Growth Fund - USD  Due,,"3,680,529.99",USD0.58,"2,150,000.00",63.7%,USD0.5565,"2,048,214.94",62.8%,0.00,"(101,785.06) (101,785.06)",,(4.7%)
+31/01/3100 At Mat0,,,,,,,,,,,,
+Affin Hwang Asset Mgmt Bhd WS -,,,,,,,,,,,,
+AHGQSGD Global Quantum Fund - SGD  Due,,"3,075,148.95",SGD0.52,"1,214,035.81",36.0%,SGD0.5183,"1,202,539.69",36.9%,"(6,855.80)","(4,640.32) (11,496.12)",,(0.9%)
+31/01/3100 At Mat0,,,,,,,,,,,,
+TOTAL FINANCIAL SERVICES,,,,"3,364,035.81",99.7%,,"3,250,754.63",99.7%,"(6,855.80)","(106,425.38) (113,281.18)",,
+TOTAL MALAYSIA,,,,"3,364,035.81",99.7%,,"3,250,754.63",99.7%,"(6,855.80)","(106,425.38) (113,281.18)",,
+TOTAL CIS,,,,"3,364,035.81",99.7%,,"3,250,754.63",99.7%,"(6,855.80)","(106,425.38) (113,281.18)",,
+TOTAL INVESTMENT HOLDINGS,,,,"3,364,035.81",99.7%,,"3,250,754.63",99.7%,"(6,855.80)","(106,425.38) (113,281.18)",,
+"CounterpartyPlacementLocalPlacementPeriodMaturityRateMaturityInterest ToAccruedAccruedDay(s) ToMarket ValueMarket ValueDateCcyAmount(Days)Date(%)AmountMaturityInterestDaysMaturity(Local Ccy)(Base Ccy)(Local Ccy)(Local Ccy)(Local Ccy)(Base Ccy)",,,,,,,,,,,,,
+"CASHMYR0.000.00",,,,,,,,,,,,,
+EUR,,,,,,,,,,,,0.00,0.00
+"USD9,568.319,568.31",,,,,,,,,,,,,
+HKD,,,,,,,,,,,,0.00,0.00
+SGD0.000.00,,,,,,,,,,,,,
+GBP,,,,,,,,,,,,0.00,0.00
+AUD0.000.00,,,,,,,,,,,,,
+IDR,,,,,,,,,,,,0.00,0.00
+CNH0.000.00,,,,,,,,,,,,,
+PHP,,,,,,,,,,,,0.00,0.00
+JPY0.000.00,,,,,,,,,,,,,
+Stock Code,Description,Units,Prior,Income,Ending,Total,Accretion of,Amortization of,Net Accretion /,Unrealised
+"",,,Accrued,Received,Accrued,Interest,Discount,Premium,Amortization,Gain / Loss
+EQUITIES,,,,,,,,,,
+AHCGUSD,Affin Hwang Asset Mgmt Bhd WS - China Growth Fund,"3,680,530.00",0.00,0.00,0.00,0.00,0.00,0.00,0.00,"22,083.18"
+"",- USD  Due 31/01/3100 At Mat0,,,,,,,,,
+AHGQSGD,Affin Hwang Asset Mgmt Bhd WS - Global Quantum,"3,075,149.00",0.00,0.00,0.00,0.00,0.00,0.00,0.00,"38,797.79"
+"",Fund - SGD  Due 31/01/3100 At Mat0,,,,,,,,,
+TOTAL EQUITIES,,"6,755,679.00",0.00,0.00,0.00,0.00,0.00,0.00,0.00,"60,880.97"
