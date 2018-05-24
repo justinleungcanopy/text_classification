@@ -2,3 +2,9 @@ restructure.txt
 
 
 Money In, Money Out --> Money
+MiscIncome, MiscExpense --> Misc
+Interest --> Interest
+SpotFX In, SpotFX Out --> SpotFX
+Sale, Purchase --> SalePurchase
+Distribution, Contribution --> DistCont
+
