@@ -47,8 +47,23 @@ print('aaabbb'.split('-'))
 
 ##############
 
+with open("./Data Files/EN_US.txt") as word_file:
+    english_words = set(word.strip().lower() for word in word_file)
+def is_word(word):
+    return word.lower() in english_words
 
-'''
+def get_english_words_out_of_string(string):
+    output_list = []
+    for splits in string.split(' '):
+        if is_word(splits):
+            output_list.append(splits.lower())
+        else:
+            break
+    return output_list
+
+
+
+
 text_1 = 'Dividend LU0913601281 AGIF INC GROW AMH2D'
 text_2 = 'INTEREST-FIXED TERM LOAN Contract No: 3001-AA18091RSG5N|Interest rate: 0.810000%|Capital: 1,000,000,000.00|Period: 16.04.2018 - 01.05.2018|Days: 15/360'
 text_3 = 'FOREX SPOT EUR/JPY 129.6910'
@@ -61,18 +76,21 @@ forex.columns = ['test']
 interest.columns = ['test']
 #combined = forex['test'].add(interest['test'],fill_value = 0)
 forex_drop = forex.dropna()
-forex_drop['test'] = forex_drop['test'].str.lower().str.split(' ')
+forex_drop.loc[:,'test'] = forex_drop['test'].str.lower().str.split(' ')
 interest_drop = interest.dropna()
-interest_drop['test'] = interest_drop['test'].str.lower().str.split('-| ')
+interest_drop.loc[:,'test'] = interest_drop['test'].str.lower().str.split('-| ')
 combined = pd.concat([forex_drop,interest_drop]).sort_index().reset_index()
-print(combined)
+
 max_length = combined['index'][len(combined)-1]
 combined = combined.set_index('index')
 new_index = pd.Index(np.arange(0,max_length+1,1))
-print(combined)
+
 combined = combined.reindex(new_index).reset_index()
-print (combined.drop(['index'],axis=1))
+combined = (combined.drop(['index'],axis=1))
+nan_index = pd.isnull(combined).any(1).nonzero()[0]
 
-'''
-
+for i in nan_index:
+	splitted = get_english_words_out_of_string(df['test'][i])
+	combined['test'][i] = splitted
+print(combined)
 
