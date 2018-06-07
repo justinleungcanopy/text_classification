@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfd74f61-a34a-4d2b-9259-8a03889b0c06" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Short Term Solutions/JB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Short Term Solutions/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Short Term Solutions/Data Files/UBS Statement Template.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Short Term Solutions/Data Files/UBS Statement.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Short Term Solutions/UBS_UL_V2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Short Term Solutions/UBS_UL_V2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Short Term Solutions/Untitled.ipynb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Short Term Solutions/UBS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,39 +16,60 @@
     <SUITE FILE_PATH="coverage/text_classification$JB.coverage" NAME="JB Coverage Results" MODIFIED="1528356100059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Short Term Solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ahc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Bitbucket/adobe_approach_pdf_excel/solvers/ahc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="62" column="24" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UBS_UL_V2.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Short Term Solutions/UBS_UL_V2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Short Term Solutions/JB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#2051#2129#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="ahc.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../Bitbucket/adobe_approach_pdf_excel/solvers/ahc.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="185">
+                  <caret line="62" column="24" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JB.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Short Term Solutions/JB.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1063">
+                  <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                    <element signature="e#2051#2129#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UBS.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Short Term Solutions/UBS.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                    <marker date="1528358042776" expanded="true" signature="140:142" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="UBS_UL_V2.ipynb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Short Term Solutions/UBS_UL_V2.ipynb">
+              <provider selected="true" editor-type-id="ipnb-editor">
+                <state>
+                  <selected id="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,6 +91,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Short Term Solutions/JB.py" />
+        <option value="$PROJECT_DIR$/Short Term Solutions/UBS.py" />
       </list>
     </option>
   </component>
@@ -87,11 +104,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7" fullScreen="true">
+    <option name="x" value="110" />
+    <option name="y" value="375" />
+    <option name="width" value="1853" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,6 +145,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bitbucket/adobe_approach_pdf_excel/solvers/ahc.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -185,8 +203,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -200,14 +217,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" x="961" y="31" width="958" height="1008" id="SciView" order="3" type="WINDOWED" visible="true" weight="0.3296875" />
+      <window_info anchor="right" auto_hide="true" x="961" y="31" width="958" height="1008" id="SciView" order="3" show_stripe_button="false" sideWeight="0.49930266" type="FLOATING" weight="0.1359375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="1920" y="23" width="1920" height="1017" id="Debug" order="3" type="WINDOWED" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" x="1920" y="23" width="1920" height="1017" id="Debug" order="3" type="WINDOWED" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" sideWeight="0.5006974" side_tool="true" weight="0.1359375" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -302,13 +320,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Short Term Solutions/JB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
+        <state relative-caret-position="1063">
           <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#2051#2129#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Short Term Solutions/UBS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1528358042776" expanded="true" signature="140:142" ph="..." />
           </folding>
         </state>
       </provider>
