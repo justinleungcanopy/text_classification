@@ -64,5 +64,18 @@ def sca_db():
     writer.save()
     return ("DONE")
 
-file = r"C:\Users\Justin Leung\Downloads\6006902.01_Statement_Apr18.xlsx"
-df = pd.read_excel(file)
+
+def sca_db_preprocessing(file_path):
+    raw_df = pd.read_excel(file_path,header=None)
+    first_col = raw_df[raw_df.columns[0]]
+    start = np.sort(first_col.index[first_col.str.contains('As of').fillna(False)])
+    end = start.copy() - 2
+    for table_start, table_end in (zip(start[1:-1],end[2:])):
+        sub_df = first_col[table_start:table_end]
+        text_to_process = re.split(r'\s\s+',first_col[table_start])[1]
+        account_number_raw, currency = text_to_process.split('\n')[1].split(' Current account ')
+        account_number = '-'.join(['leforts-dbsp',account_number_raw.split('.')[0]+"01",currency.lower(),account_number_raw.split('.')[1]])
+        print(account_number)
+    return True
+file = r"C:\Users\Justin Leung\Downloads\DB_6006902.01_SCA_Mar18.xlsx"
+sca_db_preprocessing(file)
